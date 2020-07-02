@@ -14,7 +14,6 @@ from matplotlib.figure import Figure
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def show_tables():
     tableDisplay = table()
